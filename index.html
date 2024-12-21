@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/pillow.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agu+Display&display=swap" rel="stylesheet">
+    <title>Alura Geek - Cine y Series</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Cinta popcorn cine -->
+    <div id="marco-cinta"></div>
+
+    <!-- Encabezado -->
+    <header>
+        <h1>Alura Geek - Duerme con tus series y películas favoritas</h1>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar productos..." id="buscar-producto">
+            
+        </div>
+    </header>
+
+    <!-- Mensaje de no resultados -->
+    <p id="no-result-message" style="display: none;">No se encontraron productos.</p>
+
+    <!-- Sección principal -->
+    <main class="main-container">
+        <!-- Productos renderizados -->
+        <section id="mis-productos">
+            <h2>Mis Productos</h2>
+            <div id="mis-productos-contenedor" class="productos-grid"></div>
+        </section>
+
+        <!-- Formulario agregar productos -->
+        <section id="agregar-producto">
+            <h2 >Gestionar Producto</h2>
+            <form id="form-agregar-producto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+                
+                <label for="precio">Precio:</label>
+                <input type="number" id="precio" step="0.01" required>
+
+                <label for="descripcion">Frase:</label>
+                <input type="text" id="descripcion" required>
+                
+                <label for="imagen">URL de la imagen:</label>
+                <input type="url" id="imagen" required>
+                
+                <div class="form-buttons">
+                    <button type="submit" id="boton-submit">Agregar</button>
+                    <button type="button" id="cancelar-edicion" style="display: none;">Cancelar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+
+            <!-- Imagen del formulario -->
+            <div class="imagen-agregar-producto">
+                <img src="/img/mimir.jpg" alt="Imagen de ejemplo para agregar producto">
+                <div class="mensaje">Agrega el cojín que quieres, para soñar tu historia favorita...(ᴗ˳ᴗ)ｚｚＺ</div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Alura Geek - Tamara Flores Burgos</p>
+        <ul>
+            <li>
+                <!-- Icono de flecha -->
+                <a href="#" id="scroll-to-top">
+                    <img src="img/up.png" alt="Subir al inicio" />
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="./JS/buscar.js"></script>
+    <script src="./JS/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,56 @@
+{
+  "productos": [
+    {
+      "id": 2,
+      "name": "Cojín Breaking Bad",
+      "price": 17989,
+      "description": "Say my name",
+      "image": "https://res.cloudinary.com/dg7dgtg0j/image/upload/v1734557547/bbbd_ez5csc.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Cojín Stranger Things",
+      "price": 14999,
+      "description": "Un Demogorgon",
+      "image": "https://res.cloudinary.com/dg7dgtg0j/image/upload/v1734557547/stt_gejafe.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Cojín Star Wars",
+      "price": 16756,
+      "description": "Que la fuerza te acompañe",
+      "image": "https://res.cloudinary.com/dg7dgtg0j/image/upload/v1734557548/Starwars_cwuhhc.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Cojín Volver al Futuro",
+      "price": 16545,
+      "description": "De vuelta al . . . Futuro",
+      "image": "https://res.cloudinary.com/dg7dgtg0j/image/upload/v1734557548/bff_nnagyc.jpg"
+
+    },
+    {
+      "id": 7,
+      "name": "Cojín Game of Thrones",
+      "price": 20896,
+      "description": "Winter is coming",
+      "image": "https://res.cloudinary.com/dg7dgtg0j/image/upload/v1734557548/got_fypl30.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Cojín Tiburón",
+      "price": 20125,
+      "description": "Necesitará un barco más grande",
+      "image": "https://res.cloudinary.com/dg7dgtg0j/image/upload/v1734557547/jaws2_sqxpsm.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Cojín Harry Potter",
+      "price": 18478,
+      "description": "El Peluca Sapbe",
+      "image": "https://res.cloudinary.com/dg7dgtg0j/image/upload/v1734557548/hp_dan6ju.jpg"
+    }
+  ]
+}
+
+  
