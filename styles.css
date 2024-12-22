@@ -10,20 +10,20 @@ body {
     position: relative; 
 }
 
-/* Marco de la cinta de popcorn */
+/* Marco de popcorn */
 #marco-cinta {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/img/pop.png'); 
+    background-image: url('img/pop.png'); 
     background-repeat: repeat;
     z-index: -1; 
     animation: mover-cinta 10s linear infinite;
 }
 
-/* Mover la cinta */
+/* Movimineto anmación */
 @keyframes mover-cinta {
     0% {
         background-position: 0 0;
