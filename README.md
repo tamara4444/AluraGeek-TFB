@@ -79,6 +79,10 @@ Inicialmente, el proyecto fue planeado para funcionar con JSON Server como base 
 ## Autor
 
 Desarrollado por **Tamara Flores Burgos** como parte del Challenge de **Alura Geek de Oracle ONE**.
-
 ---
+
+## 🚀 Deploy
+
+La aplicación está disponible en el siguiente enlace:  
+[AluraGeek - Ver ](https://tamara4444.github.io/AluraGeek-TFB/#)
 
