@@ -79,6 +79,7 @@ Inicialmente, el proyecto fue planeado para funcionar con JSON Server como base 
 ## Autor
 
 Desarrollado por **Tamara Flores Burgos** como parte del Challenge de **Alura Geek de Oracle ONE**.
+
 ---
 
 ## 🚀 Deploy
